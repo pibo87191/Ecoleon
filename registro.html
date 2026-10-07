@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoLeón - Registro de Usuario</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="logo-container">
+      <h1>EcoLeón 💧</h1>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="login.html">Iniciar Sesión</a></li>
+        <li><a href="registro.html" class="active">Registrarse</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-container">
+      <h2>Crear Cuenta Ciudadana</h2>
+      <p style="margin-bottom: 1.5rem; color: var(--text-muted);">Únete a la red de monitoreo y reporte de agua en León.</p>
+
+      <form action="login.html" method="GET">
+        <div class="form-group">
+          <label for="nombre">Nombre Completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ej. Ana María Gómez" required>
+        </div>
+
+        <div class="form-group">
+          <label for="correo-reg">Correo Electrónico</label>
+          <input type="email" id="correo-reg" name="correo" placeholder="ejemplo@correo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="sector">Colonia / Sector de León</label>
+          <select id="sector" name="sector" required>
+            <option value="">-- Selecciona tu zona --</option>
+            <option value="centro">Centro Histórico</option>
+            <option value="jerez">Jardines de Jerez</option>
+            <option value="leon_moderno">León Moderno</option>
+            <option value="campestre">Campestre</option>
+            <option value="delta">Delta / Diez de Mayo</option>
+            <option value="otro">Otra Colonia</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="num-cuenta">Número de Contrato / Cuenta SAPAL (Opcional)</label>
+          <input type="text" id="num-cuenta" name="num-cuenta" placeholder="Ej. 12345678">
+        </div>
+
+        <div class="form-group">
+          <label for="pass-reg">Contraseña</label>
+          <input type="password" id="pass-reg" name="password" placeholder="Mínimo 8 caracteres" minlength="8" required>
+        </div>
+
+        <button type="submit" class="btn btn-secondary" style="width: 100%; margin-top: 0.5rem;">Completar Registro</button>
+      </form>
+
+      <p style="margin-top: 1.5rem; text-align: center; font-size: 0.9rem;">
+        ¿Ya estás registrado? <a href="login.html" style="color: var(--primary-color); font-weight: bold;">Inicia sesión</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>&copy; 2026 EcoLeón - Universidad Tecnológica de León</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoLeón - Historial y Consultas</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="logo-container">
+      <h1>EcoLeón 💧</h1>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="dashboard.html">Panel</a></li>
+        <li><a href="reportar-fuga.html">Reportar Fuga</a></li>
+        <li><a href="historial.html" class="active">Historial</a></li>
+        <li><a href="index.html">Cerrar Sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Historial de Actividad y Consultas</h2>
+    <p style="margin-bottom: 2rem; color: var(--text-muted);">Revisa los registros de tu consumo mensual y el seguimiento de tus reportes de fugas en León.</p>
+
+    <section class="card" style="margin-bottom: 2rem;">
+      <h3>📊 Registro Histórico de Consumo (m³)</h3>
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Periodo</th>
+              <th>Consumo (m³)</th>
+              <th>Meta Estimada</th>
+              <th>Estatus del Recibo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Septiembre 2026</td>
+              <td>12.5 m³</td>
+              <td>15.0 m³</td>
+              <td><span class="badge badge-success">Pagado / Eficiente</span></td>
+            </tr>
+            <tr>
+              <td>Agosto 2026</td>
+              <td>14.1 m³</td>
+              <td>15.0 m³</td>
+              <td><span class="badge badge-success">Pagado</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <h3>🛠️ Reportes de Fugas e Incidencias</h3>
+        <a href="reportar-fuga.html" class="btn btn-primary" style="font-size: 0.9rem;">+ Nuevo Reporte</a>
+      </div>
+
+      <div class="table-responsive">
+        <table id="tabla-reportes">
+          <thead>
+            <tr>
+              <th>Folio</th>
+              <th>Fecha</th>
+              <th>Tipo de Incidencia</th>
+              <th>Ubicación</th>
+              <th>Estado del Folio</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>&copy; 2026 EcoLeón - Universidad Tecnológica de León</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

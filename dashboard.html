@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoLeón - Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <h1>EcoLeón</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="dashboard.html" class="active">Panel</a></li>
+                <li><a href="reportar-fuga.html">Reportar Fuga</a></li>
+                <li><a href="historial.html">Historial</a></li>
+                <li><a href="index.html">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bienvenido, Usuario</h2>
+        <p>Resumen del consumo y estado del servicio en <strong>Sector Centro, León, Gto.</strong></p>
+
+        <div class="grid-container">
+            <article class="card">
+                <h3>Consumo del Mes</h3>
+                <p style="font-size: 2rem; font-weight: bold; color: var(--primary-color);">120 m³</p>
+                <p>Límite recomendado: 100 m³</p>
+            </article>
+
+            <article class="card">
+                <h3>Estado del Servicio</h3>
+                <p><span class="badge badge-success">Servicio Normal</span></p>
+                <p>No hay cortes programados para tu zona esta semana.</p>
+            </article>
+
+            <article class="card">
+                <h3>Reportes Realizados</h3>
+                <p style="font-size: 2rem; font-weight: bold; color: var(--secondary-color);">2</p>
+                <p>1 resuelto / 1 en proceso</p>
+            </article>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 EcoLeón. Universidad Tecnológica de León</p>
+    </footer>
+</body>
+</html>
