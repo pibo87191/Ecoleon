@@ -8,9 +8,9 @@ El proyecto consiste un sistema semi-autonomo que le permita a las personas de L
 Se plenea la solicitud de al Sitema de Agua Potable y Alcantarillado de León la vinculación a la base de datos por medio del programa de SAPAL llamado "[Desarrolladores](https://developers.sap.com/api-docs/)".
 - ## ¿Cómo será nuestra organización dentro del proyecto?
 El proyecto a día *7 de octubre de 2026* se encuentra gestionado por tres personas;
-    - Emiliano V. *Desarrollador Front-End*
-    - Rafael M. *Diseñador UX/UI*
-    - Otto P. *Coordinador y gestor del repositorio*
+- Emiliano V. *Desarrollador Front-End*
+- Rafael M. *Diseñador UX/UI*
+- Otto P. *Coordinador y gestor del repositorio*
 ### Documentación
 En caso de requerir visualizar nuestra documentación puedes hacerlo por estos medios:
 [Documento de Google](https://docs.google.com/document/d/1zYRdcJTkJk-48BqT2K0Q-e5ppLeoMgsRQFnXnaYxkJ4/edit?usp=sharing)
