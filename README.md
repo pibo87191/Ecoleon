@@ -4,7 +4,7 @@ EcoLeon es un proyecto prototipo universitario que nos permitirá desarrollar nu
 
 El proyecto consiste un sistema semi-autonomo que le permita a las personas de León, Guanajuato el poder monitorear su consumo de agua y como hacer un mejor manejo de ella.
 
-![ImagenPrueba1](/EcoLeon/readmeImg/test1.png)
+![ImagenPrueba1](/readmeImg/test1.png)
 - ## ¿Cómo planeamos hacerlo?
 Se plenea la solicitud de al Sitema de Agua Potable y Alcantarillado de León la vinculación a la base de datos por medio del programa de SAPAL llamado "[Desarrolladores](https://developers.sap.com/api-docs/)".
 
